@@ -89,7 +89,6 @@ export const Header: FC<HeaderProps> = ({ setData }) => {
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [responseData, setResponse] = useState('');
 
-
     const handleCloseModal = () => {
         setIsModalOpen(false);
     };
